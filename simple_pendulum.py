@@ -12,7 +12,7 @@ g = 9.81  # gravity (m/s^2)
 I = m * L**2 / 12
 
 # Time parameters
-dt = 0.1
+dt = 0.05
 t_max = 2 * np.pi  # one full cycle
 time = np.linspace(0, t_max, int(t_max / dt))
 
